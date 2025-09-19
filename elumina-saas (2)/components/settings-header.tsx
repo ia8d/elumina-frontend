@@ -1,0 +1,10 @@
+export function SettingsHeader() {
+  return (
+    <div className="mb-8">
+      <h1 className="text-3xl font-bold text-foreground mb-2">Configurações da Clínica</h1>
+      <p className="text-muted-foreground">
+        Gerencie as configurações gerais da sua clínica e personalize sua experiência.
+      </p>
+    </div>
+  )
+}
